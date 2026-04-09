@@ -1,0 +1,46 @@
+# Build folders
+/build/
+/temp/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Generated/temporary CMakeLists if only used locally
+temp/CMakeListsCombine.txt
+temp/CMakeListsdoip.txt
+temp/CMakeListsMqtt.txt
+temp/CMakeListsMqttArm.txt
+
+# Executables / binaries
+*.exe
+*.out
+*.app
+*.elf
+
+# Linux binaries
+doip-client
+itrams-mqtt-subscriber
+
+# Static / shared libraries (if generated)
+*.a
+*.so
+*.dll
+*.lib
+
+# Object files
+*.o
+*.obj
+
+# Logs
+*.log
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
